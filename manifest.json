@@ -1,0 +1,16 @@
+{
+	"name": "Remove iFrame",
+	"description": "Automatically removes all iFrame",
+	"version": "1.0",
+	"permissions": [ "https://*/", "activeTab"],
+	"content_scripts": [ 
+	  {
+	  	"matches": [
+	  	    "http://www.nytimes.com/*",
+	  	    "http://www.ichacha.net/*"
+	  	    ],
+	  	"js": ["removeiFrame.js"]
+	  }  
+	],
+	"manifest_version": 2
+}
