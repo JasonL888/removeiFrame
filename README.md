@@ -13,3 +13,7 @@ on Chrome,
 - Click on "Load unpacked extensions ..."
 - select directory where the files reside
 
+credits
+-------
+icons from FlatIcons 
+- http://flaticons.net/customize.php?dir=Application&icon=Window-Delete.png 
