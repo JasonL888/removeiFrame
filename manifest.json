@@ -1,8 +1,8 @@
 {
 	"name": "Remove iFrame",
-	"description": "Automatically removes all iFrame",
-	"version": "1.2",
-	"permissions": [ "https://*/", "activeTab"],
+	"description": "Removes iframe from list of sites, otherwise click on icon to remove. For more details: https://github.com/JasonL888/removeiFrame",
+	"version": "1.3",
+	"permissions": [ "activeTab"],
 	"background": {
 		"scripts": ["background.js"],
 		"persistent": false
@@ -16,11 +16,22 @@
 	"content_scripts": [ 
 	  {
 	  	"matches": [
-	  	    "http://www.nytimes.com/*",
+	  		"https://thepiratebay.am/*",
+	  	    "https://thepiratebay.cr/*", 
+	  	    "https://thepiratebay.gd/*",
+	  	    "https://thepiratebay.la/*",
+	  	    "https://thepiratebay.mn/*",
+	  	    "https://thepiratebay.org/*",
+	  	    "https://thepiratebay.vg/*",
+	  	    "http://www.mp4ba.com/*",
+	  	    "http://imgclover.com/*",
 	  	    "http://www.ichacha.net/*"
 	  	    ],
 	  	"js": ["removeiFrame.js"]
 	  }  
 	],
+	"icons": {
+		"128": "Window-Delete-128.png"
+	},
 	"manifest_version": 2
 }
