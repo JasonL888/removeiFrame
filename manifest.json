@@ -1,7 +1,7 @@
 {
 	"name": "Remove iFrame",
 	"description": "Remove iframe from active tab",
-	"version": "1.4",
+	"version": "1.5",
 	"permissions": [ "activeTab"],
 	"background": {
 		"scripts": ["background.js"],
