@@ -25,6 +25,7 @@
 	  	    "https://thepiratebay.vg/*",
 	  	    "http://www.mp4ba.com/*",
 	  	    "http://imgclover.com/*",
+	  	    "http://www.bttiantang.com/*",
 	  	    "http://www.ichacha.net/*"
 	  	    ],
 	  	"js": ["removeiFrame.js"]
